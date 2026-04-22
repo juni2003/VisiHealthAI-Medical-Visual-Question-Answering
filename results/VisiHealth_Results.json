@@ -1,0 +1,11 @@
+{
+    "test_accuracy": null,
+    "test_accuracy_status": "pending_evaluation",
+    "last_known_val_accuracy": 74.35897435897436,
+    "last_known_test_accuracy": null,
+    "checkpoint": "checkpoints/best_checkpoint.pth",
+    "model_version": "Latest (Phase A+B+C + Bug Fixes - Real Cross-Attention)",
+    "epochs_trained": 63,
+    "platform": "Local / Kaggle",
+    "notes": "Upgraded to latest model with real multi-token cross-attention, FocalLoss, shared vocab fix, and corrected KG path. Val accuracy 74.36% at epoch 63."
+}
