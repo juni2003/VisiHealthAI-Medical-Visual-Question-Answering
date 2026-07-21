@@ -548,7 +548,6 @@ http://localhost:5000/api/health
 ```
 http://localhost:3000
 ```
-
 **Key Files:**
 - Backend: `backend/app.py`
 - API Routes: `backend/api/routes.py`
