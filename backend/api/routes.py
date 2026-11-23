@@ -108,6 +108,8 @@ def predict():
         # Validate question
         is_valid, error = validate_question(question)
         if not is_valid:
+            return jsonify({'error': error}), 400_question(question)
+        if not is_valid:
             return jsonify({'error': error}), 400
         
         # Load image
